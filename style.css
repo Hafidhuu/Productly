@@ -37,3 +37,11 @@ body {
   display: inline-block;
   width: 24%;
 }
+
+.text {
+  position: absolute;
+  width: 486px;
+  height: 427px;
+  left: 779px;
+  top: 2121px;
+}
