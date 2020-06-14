@@ -7,17 +7,18 @@ body {
 }
 
 .nav {
-  width: 100;
+  width: 530px;
   max-width: 1180px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: auto;
   box-sizing: border-box;
 }
-
+.nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
 .hero_btn {
   background-color: coral;
 }
@@ -38,10 +39,40 @@ body {
   width: 24%;
 }
 
-.text {
-  position: absolute;
+.text-left {
+  position: left;
   width: 486px;
   height: 427px;
   left: 779px;
   top: 2121px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: auto;
+  display: table-caption;
+}
+
+.rights {
+  width: 20%;
+}
+.nav_footer {
+  width: 530px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+.nav_footer ul {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.nav_btn {
+  background-color: coral;
+}
+
+.colour {
+  background-color: coral;
 }
