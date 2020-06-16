@@ -4,6 +4,7 @@
 }
 
 body {
+  width: 10%;
 }
 
 .nav {
@@ -23,6 +24,9 @@ body {
   background-color: coral;
 }
 
+.text {
+  text-align: left ;
+}
 .left,
 .right {
   display: inline-block;
@@ -30,21 +34,17 @@ body {
   width: 40%;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .card > div {
   display: inline-block;
   width: 24%;
 }
 
-.text-left {
-  position: left;
+.text {
   width: 486px;
   height: 427px;
   left: 779px;
   top: 2121px;
+  position: left;
   box-sizing: border-box;
   margin: 0 auto;
   padding-left: auto;
